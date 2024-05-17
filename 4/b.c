@@ -5,7 +5,8 @@ int main(){
 
     int n=0;
 
-    while(n<=50){
+
+    do{
         if(n%2==0){
             sumE+=n;
         }
@@ -13,6 +14,7 @@ int main(){
 
         n++;
     }
+    while(n<=50);
 
     printf("\nSum of even numbers from 1 to 50 = %d\n",sumE);
     printf("\nSum of odd numbers from 1 to 50 = %d\n",sumO);
